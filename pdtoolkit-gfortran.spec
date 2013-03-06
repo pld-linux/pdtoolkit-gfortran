@@ -1,5 +1,5 @@
 Summary:	Modified gfortran parser for use in PDToolkit
-Summary(pl.UTF-8):	Zmodyfilowany parser gfortrana dla PDToolkitu
+Summary(pl.UTF-8):	Zmodyfilowany parser gfortranu dla PDToolkitu
 Name:		pdtoolkit-gfortran
 Version:	4.0.2
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Modified gfortran parser for use in PDToolkit.
 
 %description -l pl.UTF-8
-Zmodyfilowany parser gfortrana dla PDToolkitu.
+Zmodyfilowany parser gfortranu dla PDToolkitu.
 
 %prep
 %setup -q -n gcc-%{version}-pdt
